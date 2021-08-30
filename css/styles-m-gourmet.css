@@ -718,8 +718,8 @@ div, span {word-wrap: normal; -webkit-hyphens: none; -moz-hyphens: none; -ms-hyp
 .site-footer {background: #fbd104; overflow: hidden; padding-top: 0; padding-bottom: 0;}
 .site-footer .inside {max-width: 100%;}
 .site-footer .follow-block {background-color: #221F20; background-image: url(gfx/footer-bg.svg); background-repeat: no-repeat; background-position: center 141px; background-size: 596px 489px; padding-top: 47px; padding-bottom: 34px;}
-.site-footer .social-row {padding: 13px 0 14px 0; max-width: 262px; margin: 0 auto; }
-.site-footer .social-row .title-box h2 {font-family: 'Bebas Neue'; font-style: normal; font-weight: bold; font-size: 30px; line-height: 135%; letter-spacing: 0.03em; text-transform: uppercase; color: #FFFFFF; margin: 0; padding: 0; border: 0;}
+.site-footer .social-row {padding: 50px 0 14px 0; max-width: 262px; margin: 0 auto; text-align: center; }
+.site-footer .social-row .title-box h2 {font-family: 'Bebas Neue'; font-style: normal; font-weight: bold; font-size: 30px; line-height: 135%; letter-spacing: 0.03em; text-transform: uppercase; color: #FFFFFF; margin: 0; padding: 0 0 10px; border: 0;}
 .site-footer .social-row .title-box h2 strong {font-weight: bold}
 .site-footer .newsletter-block {padding-top: 36px; margin: 0 auto;}
 .site-footer .newsletter-block .title-row {margin-bottom: 21px;}
@@ -745,7 +745,7 @@ div, span {word-wrap: normal; -webkit-hyphens: none; -moz-hyphens: none; -ms-hyp
 .site-footer .newsletter-block .two-cols .form-box form .checkbox-field label:hover {opacity: 0.7;}
 .site-footer .newsletter-block .two-cols .form-box form .checkbox-field label:before {content: ''; display: block; width: 19px; height: 19px; border: 1px solid #F2EAE2; border-radius: 4px; position: absolute; left: 0; top: 0;}
 .site-footer .newsletter-block .two-cols .form-box form .checkbox-field label:after {content: ''; display: block; width: 11px; height: 7px; position: absolute; left: 5px; top: 7px; background-image: url(gfx/check.svg); opacity: 0;}
-.site-footer .ins-slider {padding-top: 51px; margin: 0 -200px;}
+.site-footer .ins-slider {padding-top: 30px; margin: 0 -200px;}
 .site-footer .ins-slider .title-row {margin-bottom: 25px;}
 .site-footer .ins-slider .title-row h2 {font-family: 'Bebas Neue'; font-style: normal; font-weight: bold; font-size: 27px; line-height: 110%; text-align: center; letter-spacing: -0.01em; text-transform: uppercase; color: #fbd104; margin: 0; padding: 0; border: none;}
 .site-footer .ins-slider .title-row h2 strong {display: block; font-weight: 500;}
@@ -850,7 +850,7 @@ div, span {word-wrap: normal; -webkit-hyphens: none; -moz-hyphens: none; -ms-hyp
 .widget-dropdown .widget-dropdown-content .empty {display: none;}
 .newsletter-form {max-width: 866px; margin: 0 auto; padding: 56px 30px 0 30px;}
 .newsletter-form .nf-main-content {padding: 0; margin: 0; background: none; color: #FFF;}
-.newsletter-form .nf-main-content .nf-title {max-width: 228px; font-family: 'Bebas Neue'; font-style: normal; font-weight: bold; font-size: 27px; line-height: 110%; text-align: center; letter-spacing: -0.01em; text-transform: uppercase; color: #fbd104; margin: 0 auto; padding: 0; border: none; margin-bottom: 21px;}
+.newsletter-form .nf-main-content .nf-title {max-width: 228px; font-family: 'Bebas Neue'; font-style: normal; font-weight: bold; font-size: 35px; line-height: 110%; text-align: center; letter-spacing: -0.01em; text-transform: uppercase; color: #fbd104; margin: 0 auto; padding: 0; border: none; margin-bottom: 21px;}
 .newsletter-form .nf-main-content form label[for="nf1"] {display: none;}
 .newsletter-form .nf-main-content form .nf-form-item {display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between;}
 .newsletter-form .nf-main-content form .nf-form-item .left-col {width: 355px;}
@@ -917,3 +917,17 @@ div, span {word-wrap: normal; -webkit-hyphens: none; -moz-hyphens: none; -ms-hyp
 .block-focus .btn-primary { position: relative; display: inline-block; background: #fbd104; color: #221F20; text-decoration: none; font-family: 'Bebas Neue'; font-size: 20px; font-weight: bold; text-transform: uppercase; letter-spacing: 0.05em; border-radius: 32px; height: 51px; line-height: 55px; padding: 0 20px 0 45px; border: 0; transition: -webkit-padding .4s; transition: -ms-padding .4s; transition: -o-padding .4s; -webkit-transition: padding .4s; -o-transition: padding .4s; transition: padding .4s;}
 .block-focus .btn-primary:after { content: ''; position: absolute; width: 13px; height: 9px; top: 47%; left: 19px; background: url(gfx/ico-arrow.svg) no-repeat 0 0; background-size: 100% 100%; margin-top: -3px;}
 .block-focus .btn-primary:hover { padding: 0 20px 0 41px; background: #fbd104; color: #221F20; }
+
+
+
+.site-footer .social-row .ico-list { padding-right: 14px;}
+.site-footer .social-row .ico-list ul { display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; margin: 0; padding: 0; justify-content: center; }
+.site-footer .social-row .ico-list ul li { list-style: none; padding: 0 8px;}
+.site-footer .social-row .ico-list ul li a { display: block; width: 40px; height: 40px; background-color: #FFDE06; border-radius: 50%; background-position: center;
+	background-repeat: no-repeat;
+-webkit-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out;}
+.site-footer .social-row .ico-list ul li a:hover { opacity: 0.7;}
+.site-footer .social-row .ico-list ul li a.instagram-ico { background-image: url(gfx/ico-instagram.svg); background-size: 18px 19px;}
+.site-footer .social-row .ico-list ul li a.facebook-ico { background-image: url(gfx/ico-facebook.svg); background-size: 10px 18px;}
+.site-footer .social-row .ico-list ul li a.youtube-ico { background-image: url(gfx/ico-youtube.svg); background-size: 21px 16px;}
+.site-footer .social-row .ico-list ul li a.linkedin-ico { background-image: url(gfx/ico-linkedin.svg); background-size: 16px 16px;}

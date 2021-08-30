@@ -776,12 +776,15 @@ div, span {word-wrap: normal; -webkit-hyphens: none; -moz-hyphens: none; -ms-hyp
 .site-banner .sb-menu-trigger i:after {content: ''; -webkit-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; display: block; width: 34px; height: 1px; background-color: #F2EAE2; position: absolute; left: 0; top: 8px;}
 .site-banner .gsf-trigger {background: url(gfx/ico-search.svg) no-repeat 0 0 !important; position: fixed; z-index: 2; right: 173px; top: 14px; width: 19px; height: 19px; -webkit-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out;}
 .site-banner .gsf-trigger:hover {opacity: 0.7;}
-.widget-my-selection {cursor: pointer; position: fixed; z-index: 2; right: 109px; top: 10px;}
+.widget-my-selection {cursor: pointer; position: fixed!important; z-index: 2; right: 109px; top: 10px;}
 .widget-my-selection:before {content: ''; display: block; width: 4px; height: 4px; background-color: #B0A498; border-radius: 50%; position: absolute; left: -23px; top: 13px;}
 .widget-my-selection:after {content: ''; display: block; width: 4px; height: 4px; background-color: #B0A498; border-radius: 50%; position: absolute; right: -31px; top: 13px;}
 .widget-my-selection .widget-icon {display: block; position: relative;}
 .widget-my-selection .widget-icon .cap-icon-shopping_basket {display: block; width: 18px; height: 22px; background: url(gfx/ico-bag.svg) no-repeat 0 0;}
-.widget-my-selection .widget-icon .number {position: absolute; text-align: center; width: 13px; height: 13px; background-color: #FF700C; font-family: 'Flama'; font-style: normal; font-weight: 500; font-size: 9px; line-height: 13px; color: #FFFFFF; border-radius: 50%; right: -7px; bottom: -5px;}
+.widget-my-selection .widget-icon .number {position: absolute!important; text-align: center!important; width: 13px!important; height: 13px!important; background-color: #FF700C!important; font-family: 'Flama'!important; font-style: normal!important; font-weight: 500!important; font-size: 9px!important; line-height: 13px!important; color: #FFFFFF!important; border-radius: 50%!important; right: -7px!important; bottom: -5px!important;}
+
+
+.cap-icon-shopping_basket:before {display: none; }
 .lang-switcher {position: fixed; right: 20px; top: 20px; margin: 0; -webkit-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out;}
 .lang-switcher:hover {opacity: 0.7;}
 .ls-trigger {width: auto; padding-right: 18px; font-family: 'Flama'; font-style: normal; font-weight: 500; font-size: 11px; line-height: 13px; letter-spacing: 0.55px; color: #FFFFFF;}

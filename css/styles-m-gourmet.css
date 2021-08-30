@@ -122,9 +122,10 @@ body {min-width: 320px; font-family: 'Flama', sans-serif; font-size: 15px; line-
 /* ------------------------------------------------------------ *\
 	Cookie
 \* ------------------------------------------------------------ */
-.cc-cookies {position: fixed; bottom: 0; left: 0; right: 0; background: url(gfx/dd-bg.jpg) no-repeat 0 0; background-size: cover; top: auto; padding: 18px 25px 20px; font-size: 13px; color: #221F20; line-height: 1.69; text-align: center;}
+.cc-cookies {position: fixed; bottom: 0; left: 0; right: 0; background: #fbd104; background-size: cover; top: auto; padding: 20px 25px; font-size: 13px; color: #221F20; line-height: 1.25; text-align: center;}
 .cc-cookies .inside {text-align: center;}
-.cc-cookies a.cc-cookie-accept, .cc-cookies a.cc-cookie-decline, .cc-cookies a.cc-cookie-reset {width: auto; display: inline-block; background-color: #221F2; font-size: 20px; font-family: 'Flama'; font-weight: 300;  padding: 4px 0 5px; max-width: 144px; display: block; letter-spacing: 0.15em;}
+.cc-cookies a.cc-cookie-accept, .cc-cookies a.cc-cookie-decline, .cc-cookies a.cc-cookie-reset {width: auto; display: inline-block; background-color: #221F2; font-size: 20px; font-family: 'Bebas Neue'; font-weight: bold;  padding: 10px 0 5px; max-width: 144px; display: block; letter-spacing: 0.05em; margin-top: 15px; border-radius: 30px;
+}
 
 /* ------------------------------------------------------------ *\
 	Slider
@@ -780,7 +781,7 @@ div, span {word-wrap: normal; -webkit-hyphens: none; -moz-hyphens: none; -ms-hyp
 .widget-my-selection:before {content: ''; display: block; width: 4px; height: 4px; background-color: #B0A498; border-radius: 50%; position: absolute; left: -23px; top: 13px;}
 .widget-my-selection:after {content: ''; display: block; width: 4px; height: 4px; background-color: #B0A498; border-radius: 50%; position: absolute; right: -31px; top: 13px;}
 .widget-my-selection .widget-icon {display: block; position: relative;}
-.widget-my-selection .widget-icon .cap-icon-shopping_basket {display: block; width: 18px; height: 22px; background: url(gfx/ico-bag.svg) no-repeat 0 0;}
+.widget-my-selection .widget-icon .cap-icon-shopping_basket {display: block; width: 18px; height: 22px; background: url(gfx/ico-bag-w.svg) no-repeat 0 0;}
 .widget-my-selection .widget-icon .number {position: absolute!important; text-align: center!important; width: 13px!important; height: 13px!important; background-color: #FF700C!important; font-family: 'Flama'!important; font-style: normal!important; font-weight: 500!important; font-size: 9px!important; line-height: 13px!important; color: #FFFFFF!important; border-radius: 50%!important; right: -7px!important; bottom: -5px!important;}
 
 

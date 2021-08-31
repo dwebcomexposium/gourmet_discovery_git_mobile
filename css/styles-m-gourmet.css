@@ -87,7 +87,7 @@ body {min-width: 320px; font-family: 'Flama', sans-serif; font-size: 15px; line-
 .mn-link.is-active {background: none;}
 .mn-item-lvl-1 {min-height: 0; background-color: transparent; border: 0; padding-bottom: 9px;}
 .mn-item-lvl-1 > .mn-link {position: relative;}
-.mn-item-lvl-1 > .mn-link .mn-link-text {display: block; padding-bottom: 10px; background: transparent !important;}
+.mn-item-lvl-1 > .mn-link .mn-link-text {display: block; padding: 5px 0; background: transparent !important; }
 .mn-item-lvl-1 > .mn-link:after {display: block; width: 8px; height: 8px; border-radius: 50%; content: ''; margin: auto; background-color: red;}
 .mn-item-lvl-1:last-child > .mn-link:after {display: none;}
 .mn-item-lvl-1:nth-child(1) > .mn-link:after {background-color: #aabae2;}
@@ -931,13 +931,13 @@ div, span {word-wrap: normal; -webkit-hyphens: none; -moz-hyphens: none; -ms-hyp
 .site-banner .quicklinks ul li a.btn-primary {-webkit-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; padding: 12px 5px; text-decoration: none; display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; font-family: 'Bebas Neue'; font-style: normal; font-weight: bold; font-size: 14px; line-height: 15px; letter-spacing: 0.05em; text-transform: uppercase; color: #221F20; position: static; height: auto; width: 100%; border: 0; }
 .logo {width: 164px; height: 119px;}
 .mn-item-has-submenu::after {display: none;}
-.mn-item-lvl-1 > .mn-link {font-family: 'Flama'; font-style: normal; font-weight: 300; font-size: 17px; line-height: 26px; text-transform: uppercase; color: #FFFFFF; -webkit-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out;}
+.mn-item-lvl-1 > .mn-link {font-family: 'Bebas Neue'; font-style: normal; font-weight: bold; font-size: 27px; line-height: 1; text-transform: uppercase; color: #FFFFFF; -webkit-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out;}
 .mn-item-lvl-1 > .mn-link:hover {opacity: 0.7;}
 .mn-item-lvl-1 > .mn-link:after {width: 4px; height: 4px; background: #B0A498 !important; opacity: 0.5;}
 .mn-menu-line .mn-menu-lvl1 {display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap;}
 .mn-item-lvl-1 {width: 100%;}
-.mn-item-lvl-1:nth-last-child(2) > .mn-link {letter-spacing: 0.65px; color: #B0A498; text-transform: none;}
-.mn-item-lvl-1:nth-last-child(1) > .mn-link {letter-spacing: 0.65px; color: #B0A498; text-transform: none;}
+/*.mn-item-lvl-1:nth-last-child(2) > .mn-link {letter-spacing: 0.65px; color: #B0A498; text-transform: none;}
+.mn-item-lvl-1:nth-last-child(1) > .mn-link {letter-spacing: 0.65px; color: #B0A498; text-transform: none;}*/
 .mn-menu-submenu {background: #1D1D1B;}
 .mn-menu-submenu .mn-link {font-family: 'Flama'; font-style: normal; font-weight: 300; font-size: 17px; line-height: 26px; color: #FFFFFF; text-transform: none; -webkit-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out;}
 .mn-menu-submenu .mn-link:hover {opacity: 0.7;}
@@ -1058,4 +1058,4 @@ div, span {word-wrap: normal; -webkit-hyphens: none; -moz-hyphens: none; -ms-hyp
 
 
 
-.at-publication { display: none;}
+.cap-icon-user-circle-o, .at-publication { display: none;}

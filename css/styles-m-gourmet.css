@@ -933,6 +933,14 @@ div, span {word-wrap: normal; -webkit-hyphens: none; -moz-hyphens: none; -ms-hyp
 .logo a { display: block; }
 .mn-item-has-submenu::after {display: none;}
 .mn-item-lvl-1 > .mn-link {font-family: 'Bebas Neue'; font-style: normal; font-weight: bold; font-size: 22px; line-height: 1; text-transform: uppercase; color: #FFFFFF; -webkit-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out;}
+
+
+.main-navigation #widgetMobileLinkOpenCap a {font-family: 'Flama'; font-style: normal; font-weight: normal; font-size: 14px; line-height: 1; text-transform: none; color: #FFFFFF; padding-bottom: 15px; }
+.main-navigation #widgetMobileLinkOpenCap a:after {display: none; }
+
+
+
+
 .mn-item-lvl-1 > .mn-link:hover {opacity: 0.7;}
 .mn-item-lvl-1 > .mn-link:after {width: 4px; height: 4px; background: #B0A498 !important; opacity: 0.5;}
 .mn-menu-line .mn-menu-lvl1 {display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap;}
@@ -1060,3 +1068,4 @@ div, span {word-wrap: normal; -webkit-hyphens: none; -moz-hyphens: none; -ms-hyp
 
 
 .cap-icon-user-circle-o, .at-publication { display: none;}
+.is-stuck.site-banner .main-navigation { top: 45px;}

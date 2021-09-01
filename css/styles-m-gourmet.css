@@ -431,8 +431,8 @@ body {min-width: 320px; font-family: 'Flama', sans-serif; font-size: 15px; line-
 .article-wrapper figure {max-width: 100%; width: 100%; padding: 0; margin: 0; border: 0;}
 .article-wrapper p {margin: 0 0 20px;}
 .article-wrapper img {display: block; width: 100%; height: auto;}
-.article-wrapper blockquote {max-width: 200%; width: auto; padding: 32px 10px 26px; margin: 15px -30px 53px; font-family: 'Flama', serif; font-size: 22px; line-height: 1.45; font-weight: normal;  color: #111; background: #fbd104;}
-.article-wrapper blockquote p {margin: 0;}
+.article-wrapper blockquote {max-width: 200%; width: auto; padding: 10px 10px 26px; margin: 15px -30px 53px; font-family: 'Flama', serif; font-size: 15px; line-height: 1.45; font-weight: normal;  color: #111; background: #fbd104;}
+.article-wrapper blockquote p {margin: 15px;}
 .article-wrapper ul {list-style-type: none; padding-left: 0; margin: 0 0 21px;}
 .article-wrapper ul li {position: relative; list-style-type: none; font-size: 14px; padding-bottom: 7px;}
 .article-wrapper ul li:before {top: 0; position: absolute; left: 0; content: ''; margin: 0; padding: 0; -webkit-transform: rotate(0); -ms-transform: rotate(0); -o-transform: rotate(0); transform: rotate(0);}

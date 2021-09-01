@@ -1059,3 +1059,4 @@ div, span {word-wrap: normal; -webkit-hyphens: none; -moz-hyphens: none; -ms-hyp
 
 
 .cap-icon-user-circle-o, .at-publication { display: none;}
+.logo a { display: block; }

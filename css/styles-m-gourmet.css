@@ -840,7 +840,7 @@ div, span {word-wrap: normal; -webkit-hyphens: none; -moz-hyphens: none; -ms-hyp
 .pg-lightbox-close svg, .pg-lightbox-prev svg, .pg-lightbox-next svg {fill: #fff;}
 .site-footer {background: #fbd104; overflow: hidden; padding-top: 0; padding-bottom: 0;}
 .site-footer .inside {max-width: 100%;}
-.site-footer .follow-block {background-color: #221F20; background-image: url(gfx/footer-bg.svg); background-repeat: no-repeat; background-position: center 141px; background-size: 596px 489px; padding-top: 47px; padding-bottom: 34px;}
+.site-footer .follow-block {background-color: #221F20; /*background-image: url(gfx/footer-bg.svg); background-repeat: no-repeat; background-position: center 141px; background-size: 596px 489px;*/ padding-top: 47px; padding-bottom: 34px;}
 .site-footer .social-row {padding: 50px 0 14px 0; max-width: 262px; margin: 0 auto; text-align: center; }
 .site-footer .social-row .title-box h2 {font-family: 'Bebas Neue'; font-style: normal; font-weight: bold; font-size: 30px; line-height: 135%; letter-spacing: 0.03em; text-transform: uppercase; color: #FFFFFF; margin: 0; padding: 0 0 10px; border: 0;}
 .site-footer .social-row .title-box h2 strong {font-weight: bold}
@@ -931,7 +931,7 @@ div, span {word-wrap: normal; -webkit-hyphens: none; -moz-hyphens: none; -ms-hyp
 .site-banner .quicklinks ul li a.btn-primary {-webkit-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; padding: 12px 5px; text-decoration: none; display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; font-family: 'Bebas Neue'; font-style: normal; font-weight: bold; font-size: 14px; line-height: 15px; letter-spacing: 0.05em; text-transform: uppercase; color: #221F20; position: static; height: auto; width: 100%; border: 0; }
 .logo {width: 164px; height: 119px;}
 .mn-item-has-submenu::after {display: none;}
-.mn-item-lvl-1 > .mn-link {font-family: 'Bebas Neue'; font-style: normal; font-weight: bold; font-size: 27px; line-height: 1; text-transform: uppercase; color: #FFFFFF; -webkit-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out;}
+.mn-item-lvl-1 > .mn-link {font-family: 'Bebas Neue'; font-style: normal; font-weight: bold; font-size: 22px; line-height: 1; text-transform: uppercase; color: #FFFFFF; -webkit-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out;}
 .mn-item-lvl-1 > .mn-link:hover {opacity: 0.7;}
 .mn-item-lvl-1 > .mn-link:after {width: 4px; height: 4px; background: #B0A498 !important; opacity: 0.5;}
 .mn-menu-line .mn-menu-lvl1 {display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap;}
@@ -941,7 +941,7 @@ div, span {word-wrap: normal; -webkit-hyphens: none; -moz-hyphens: none; -ms-hyp
 .mn-menu-submenu {background: #1D1D1B;}
 .mn-menu-submenu .mn-link {font-family: 'Flama'; font-style: normal; font-weight: 300; font-size: 17px; line-height: 26px; color: #FFFFFF; text-transform: none; -webkit-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out;}
 .mn-menu-submenu .mn-link:hover {opacity: 0.7;}
-.main-navigation:before {content: ''; position: absolute; background-image: url(gfx/footer-bg.svg); background-repeat: no-repeat; background-size: cover; width: 596px; height: 489px; top: 126px; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); transform: translateX(-50%);}
+.main-navigation:before {/*content: ''; position: absolute; background-image: url(gfx/footer-bg.svg); background-repeat: no-repeat; background-size: cover; width: 596px; height: 489px; top: 126px; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); transform: translateX(-50%);*/}
 .is-stuck.site-banner .main-navigation {overflow-y: hidden; padding-bottom: 60px;}
 .main-navigation {overflow-y: hidden; padding-bottom: 60px; height: 100%;}
 .main-navigation .mn-menu-line {height: 100%; overflow: auto;}

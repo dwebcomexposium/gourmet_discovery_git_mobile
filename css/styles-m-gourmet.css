@@ -1073,3 +1073,13 @@ div, span {word-wrap: normal; -webkit-hyphens: none; -moz-hyphens: none; -ms-hyp
 
 .cap-icon-user-circle-o, .at-publication { display: none;}
 .is-stuck.site-banner .main-navigation { top: 45px;}
+
+
+/*Partners*/
+.block-page.partner-list, .block-page.error-page, .block-page.sitemap, .block-page.faq, .block-page.search-result {padding: 0 15px; }
+.partner .pl-item {border: 0; padding: 30px 0; clear: both; }
+h3.pl-item-title, .search-result h3  {font-size: 25px; line-height: 1.15; font-weight: bold; color: #FF700C; text-transform: uppercase; margin: 0 0 22px; font-family: "Bebas Neue"; }
+.sr-item-title a {color: #1c294b; }
+
+.partner img.pl-item-illust {margin: 0 30px 30px 0; border: 1px solid #e1e3e6; padding: 20px; }
+body.partner .pl-item .link-read-more { position: relative; display: inline-block; background: #fbd104; color: #000001; text-decoration: none; font-family: 'Bebas Neue'; font-size: 13px; font-weight: bold; text-transform: uppercase; letter-spacing: 0.05em; border-radius: 32px; height: 30	px; line-height: 55px; padding: 0 15px 0 40px; border: 0; transition: -webkit-padding .4s; transition: -ms-padding .4s; transition: -o-padding .4s; -webkit-transition: padding .4s; -o-transition: padding .4s; transition: padding .4s;} 
